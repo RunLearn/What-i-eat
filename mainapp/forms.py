@@ -5,4 +5,4 @@ from mainapp.models import MainPage
 class MainPageCreationForm(ModelForm):
     class Meta:
         model = MainPage
-        fields = ("content")
+        fields = ["content"]
